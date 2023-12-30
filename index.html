@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <h1>Standard Calculator</h1>
+        </div>
+        <div class="display-section">
+            <input class="display" type="text" name="display" id="display">
+        </div>
+        <div class="display-section">
+            <input class="result" type="text" name="error" id="error">
+        </div>
+        
+        <div class="btn-section">
+            <button class="btn" onclick="Clear()">C</button>
+            <button class="btn" onclick="Solve('%')">%</button>
+            <button class="btn" onclick="Backspace()">←</button>
+            <button class="btn" onclick="Solve('/')">/</button>
+            <br>
+            <button class="btn" onclick="Solve('7')">7</button>
+            <button class="btn" onclick="Solve('8')">8</button>
+            <button class="btn" onclick="Solve('9')">9</button>
+            <button class="btn" onclick="Solve('*')">*</button>
+            <br>
+            <button class="btn" onclick="Solve('4')">4</button>
+            <button class="btn" onclick="Solve('5')">5</button>
+            <button class="btn" onclick="Solve('6')">6</button>
+            <button class="btn" onclick="Solve('-')">-</button>
+            <br>
+            <button class="btn" onclick="Solve('1')">1</button>
+            <button class="btn" onclick="Solve('2')">2</button>
+            <button class="btn" onclick="Solve('3')">3</button>
+            <button class="btn" onclick="Solve('+')">+</button>
+            <br>
+            <button class="btn" onclick="Solve('00')">00</button>
+            <button class="btn" onclick="Solve('0')">0</button>
+            <button class="btn" onclick="Solve('.')">.</button>
+            <button class="eqbtn" onclick="Result()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <footer>
+        <p style="color:aliceblue; font-size:xx-large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            Made with lots of ❤️ by ANSH PANT
+        </p>
+    </footer>
+</body>
+</html>
